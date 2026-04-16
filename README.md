@@ -1,4 +1,5 @@
 <img width="480" height="395" alt="4hupit6U_converted" src="https://github.com/user-attachments/assets/5b341eb7-dad1-422e-a099-ba6f48c404f7" />
+
 # 光线投射与Phong着色实验报告
 基于Taichi实现的代码驱动三维场景渲染与实时交互系统
 
