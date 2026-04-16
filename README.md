@@ -1,10 +1,8 @@
-<img width="480" height="395" alt="4hupit6U_converted" src="https://github.com/user-attachments/assets/5b341eb7-dad1-422e-a099-ba6f48c404f7" />
-
 # 光线投射与Phong着色实验报告
 基于Taichi实现的代码驱动三维场景渲染与实时交互系统
 
 ## 实验概述
-本实验使用**Taichi**编程语言，通过 **光线投射（Ray Casting）**算法，在不依赖外部模型文件的前提下，纯数学隐式定义三维几何体；实现光线-物体求交、深度测试（Z-buffer）、Phong光照着色，并通过Taichi UI构建交互式控制面板，实时调整光照材质参数，完成完整的三维渲染管线基础实践。
+本实验使用**Taichi**编程语言，通过**光线投射（Ray Casting）** 算法，在不依赖外部模型文件的前提下，纯数学隐式定义三维几何体；实现光线-物体求交、深度测试（Z-buffer）、Phong光照着色，并通过Taichi UI构建交互式控制面板，实时调整光照材质参数，完成完整的三维渲染管线基础实践。
 
 ## 实验环境
 - 编程语言：Python 3.x
@@ -94,6 +92,7 @@ python 文件名.py
 - 物体遮挡关系正确
 - 滑块可实时调节材质明暗、高光大小与强度
 - 渲染流畅，GPU加速无明显卡顿
+<img width="480" height="395" alt="4hupit6U_converted" src="https://github.com/user-attachments/assets/5b341eb7-dad1-422e-a099-ba6f48c404f7" />
 
 ## 总结
 本实验完整实现了**光线追踪基础管线**，从光线生成、几何体求交，到深度测试、Phong着色与实时交互，覆盖了三维渲染的核心知识点。通过纯代码定义场景，加深了对光线投射数学原理与光照模型的理解，同时掌握了Taichi GPU编程与UI交互的基础用法。
